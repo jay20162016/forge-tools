@@ -1,3 +1,4 @@
+#!/Users/jayjay/anaconda3/bin/python
 from PIL import Image
 
 rgba = eval(input("Please input your desired RGBA in tuple format: "))

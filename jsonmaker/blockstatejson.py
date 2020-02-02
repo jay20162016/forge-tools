@@ -1,3 +1,4 @@
+#!/Users/jayjay/anaconda3/bin/python
 text = """
 {
     "variants": {
