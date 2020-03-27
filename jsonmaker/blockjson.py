@@ -1,12 +1,18 @@
 #!/Users/jayjay/anaconda3/bin/python
-text = """
-{
-    "parent": "block/cube_all",
-    "textures": {
-        "all": "%s:block/%s"
+def blockJSON(modid, resourcelocation, file):
+    text = """
+    {
+        "parent": "block/cube_all",
+        "textures": {
+            "all": "%s:block/%s"
+        }
     }
-}
-""" % ( input("What is your modid? "), input("What is the resourcelocation of your block? ") ) 
+    """ % (modid, resourcelocation)
 
-with open( input("What file? "), "w" ) as f:
-	f.write(text)
+    with open(file, "w") as f:
+        f.write(text)
+
+
+if __name__ == '__main__':
+    blockJSON(input("What is your modid? "), input("What is the resourcelocation of your item? "),
+              input("What file? "))

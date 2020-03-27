@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "copper/item",
+  "ingredients": [
+    {
+      "item": "tadas77_materials_mod:copper/block"
+    }
+  ],
+  "result": {
+    "item": "tadas77_materials_mod:copper/item",
+    "count": 9
+  }
+}
